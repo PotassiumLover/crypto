@@ -1,0 +1,65 @@
+How long did it take you to complete this project? 
+    30 minutes.
+What steps did you take to complete the project?
+    follow the steps here: https://stackoverflow.com/questions/72844616/how-do-i-sign-git-commits-using-my-existing-ssh-key
+    Realize that my ssh key wasn't working
+    Create a new ssh key
+    follow the prior steps
+    realize I used the wrong email
+    remake an ssh key with the correct email
+    follow the stackoverflow steps
+
+Make sure to include details on how you generated your key pair, how you set up commit signing in your Git client, 
+how you signed the commit, and how you verified your signed commit. 
+    I ran ssh-keygen -t ed25519 -C "myemail@gmail.com" -f ~/.ssh/idsign_ed25519 to create the keys then provided the public key
+    to github, which then verified the commit.
+Include details about anything you attempted that ultimately did not work.
+    I don't reccomend using bad ssh keys or wrong emails.
+Include screenshots if you think that would be helpful.
+Identify the tools you used.
+    just used github's ssh key integration
+Also, include details about any tools you ultimately abandoned.
+Describe what went well with these tools and what was challenging.
+    everything went well really, the only challenge was my own stupidity.
+Describe what information sources you used and how helpful (or unhelpful) they were.
+    Stackoverflow was helpful, no notes.
+Why did you need to use them?
+    I am not very git or ssh savvy.
+Why were they helpful (or unhelpful)?
+    Because they told me how to do the thing.
+Answer the following questions:
+What were the easiest steps to set up Git commit signing, sign a commit, or verify a commit? Why were they the easiest?
+    Signing I guess, because verifying required me knowing what email I was supposed to use.
+What were the hardest one or two steps in setting up Git commit signing, signing a commit, or verifying a commit? Why were they the hardest?
+    Verifying, because it required me to remember the right email.
+What would you change about the setup process, if anything?
+    It was pretty straightforward, I don't think I'd change anything.
+Answer the after-scenario questionnaire (ASQ) by indicating how much you agree with the following statements on a scale of 1 (strongly disagree) to 7 (strongly agree).
+Overall, I am satisfied with the ease of setting up and using commit signing.
+    7
+Overall, I am satisfied with the amount of time it took to set up and use Git commit signing.
+    7
+Overall, I am satisfied with the support information (online help, messages, documentation) I found when setting up and using commit signing. 
+    7
+Answer the system usability scale (SUS) questions by indicating how much you agree with the following statements on a scale of 1 (strongly agree) to 5 (strongly disagree). Note that this scale is different than the previous scale.
+I think that I would have no problem using Git commit signing frequently.
+    1
+I found using Git commit signing unnecessarily complex.
+    5
+I thought that using Git commit signing was easy.
+    1
+I think that I would need the support of a technical support staff to use Git commit signing in the future.
+    5
+I found the various functions for using Git commit signing to be well-integrated.
+    1
+I thought there was too much inconsistency in using Git commit signing.
+    5
+I would imagine that most people would learn to use Git commit signing very quickly.
+    3
+I found using Git commit signing to be very cumbersome.
+    5
+I felt very confident using Git commit signing.
+    3
+I needed to learn a lot of things before I could get going with using Git commit signing.
+    5
+Provide any other feedback you have about the project or Git commit signing.
